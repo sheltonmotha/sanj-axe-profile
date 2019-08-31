@@ -1,34 +1,152 @@
-
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Shelton Profile page</title>
-	<style type="text/css">
-		html, body{
-			height:100%;
-			width: 100%;
-			padding: 0;
-			margin: 0;
-		}
-		#container{
-			display: inline-block;
+	<title>My Website</title>
+	<style>
+		.bg{
+			background-color: white;
+			color: black;
+			width: 98.6%;
 			height: 50%;
-			width: 50%;
-			position: relative;
-			left: 50%;
-			top: 50%;
-			transform: translate(-50%, -50%);
-			text-align: center;
+			padding: 10px;
 		}
-		#container img{
-			height: 70%;
+		.cities{
+			background-color: black;
+		    color: white;
+		    vertical-align: top;
+		    padding: 10px;
+		    word-spacing: 30px;
+		}
+		.city{
+			background-color: white;
+			color: black;
+			width: 50%;
+			margin: 20px;
+			padding: 10px;
+
+		}
+		#top{
+			background-color: #ccc;
+			shape-margin:  10px;
+			padding: 90px;
+			width: 70%;
+			height: 20px;
+			text-align: left;
+		}
+		#top1{
+			background-color: #ccc;
+			shape-margin:  10px;
+			padding: 60px;
+			width: 40%;
+			height: 0.1px ;
+			text-align: left;	
+		}
+		#top2{
+			background-color: #ccc;
+			border: 1px;
+			shape-margin:  10px;
+			padding: 50px;
+			width: 50%;
+			height: 10%;	
+		}
+		#top3{
+			background-color: #ccc;
+			shape-margin:  10px;
+			border: 1px;
+			padding: 50px;
+			width: 50%;
+			height: 10%;	
+		}
+		#top4{
+			background-color: #ccc;
+			shape-margin:  10px;
+			border: 1px;
+			padding: 50px;
+			width: 50%;
+			height: 10%;	
+		}
+		.about{
+			
+			background-color: white;
+			position: absolute;
+			top: 206px;
+			right: 450px;
+			font-size: 15px;
+			color: black;
+			margin-left: 55%;
+			padding: 10px;
+		}
+		.popular{
+			
+			background-color: white;
+			position: absolute;
+			top: 560px;
+			right: 450px;
+			width: 14%;
+			font-size: 15px;
+			color: black;
+			margin-left: 55%;
+			padding: 10px;
+		}
+		.follow{
+			background-color: white; 
+			color: black; 
+			position: absolute;
+			top: 1010px;
+			right: 450px;
+			width: 15%;
+			padding-left: 5px; 
+		}
+		.footer{
+			background-color: grey;
+			color: black;
+			width: 98.6%;
+			height: 50%;
+			padding: 10px;
 		}
 	</style>
 </head>
-<body>
-	<div id="container">
-		<img src="IMG20190622134723.jpg">
-		<p>Hi I am Sanj-axe. I like to watch udemy,play games.</p>
+<body style="background-color: lightgrey">
+	<div class="bg">
+		<center><h1>My Website</h1></center>
+		<center><h5>Resize the browser window to see the effect</h5></center>
 	</div>
+<div class="cities">
+		<a href="https://www.google.com"><button>Google Homepage</button></a>
+		<a href="https://www.youtube.com"><button>Youtube Homepage</button></a>
+		<a href="https://www.amazon.in"><button>Amazon Homepage</button></a>
+</div>
+<div style="background-color: lightgrey">
+<div class="city">
+	<h1>TITLE HEADING</h1>
+	<h4>Title description,Dec 7,2017</h4>
+	<div id="top">Image</div>
+	<p align="left">Some text..<br><br>Stunt in culpa qui officia deserunt mollit anim<br>id est laborum consecteur adipiscing elit.</p>
+</div>
+<div class="city">
+	<h1>TITLE HEADING</h1>
+	<h4>Title description,Dec 7,2017</h4>
+	<div id="top">Image</div>
+	<p>Some text..<br><br>Stunt in culpa qui officia deserunt mollit anim<br>id est laborum consecteur adipiscing elit.</p>
+</div>
+<div class="about">
+	<h2>About Me</h2>
+	<div id="top1">Image</div>
+	<p>Some text..<br><br>Stunt in culpa qui officia deserunt mollit anim<br>id est laborum consecteur adipiscing elit.</p>
+</div>
+<div class="popular">
+	<h2>Popular Post</h2>
+	<div id="top2">Image</div>
+	<div id="top3">Image</div>
+	<div id="top4">Image</div>
+</div>
+<div class="follow">
+	<h2>Follow Me</h2>
+	<p>Some text..</p>
+</div>
+<div class="footer">
+	<center><h2>Footer</h2></center>
+</div>
+</div>
 </body>
 </html>
